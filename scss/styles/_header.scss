@@ -1,0 +1,78 @@
+header{
+
+        height: 84px;
+    
+    .container {
+
+        width: 100%;
+        
+    }
+    img{
+        margin-left: 110px;
+    }
+    
+    .header-flex {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    ul {
+       
+        margin-right: 110.5px;
+        display: inline-flex;
+        padding: 16px 20px;
+        justify-content: center;
+        align-items: center;
+         gap: 40px;
+    }
+    
+    li a {
+        color:$color;
+        font-size: 17px;
+        font-family: Helvetica;
+     }
+             .head:hover {
+                -webkit-transition: all .5s;
+                -o-transition: all .5s;
+                transition: all .5s;
+                -webkit-user-select: none;
+                   -moz-user-select: none;
+                    -ms-user-select: none;
+                        user-select: none;
+              color: white;
+               padding: 10px;
+                background: linear-gradient(to bottom, rgb(90, 221, 219), rgb(43, 182, 101));
+         
+
+              }
+              
+     .Donate
+     {
+        color: #FFF;
+        text-align: right;
+       
+font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: inline-flex;
+        padding: 12px 32px;
+        align-items: flex-start;
+        gap: 10px;
+
+
+        border-radius: 4px;
+background: $black;
+     }
+      .Donate:hover {
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        background-color:  rgb(43, 182, 101);
+ 
+
+      }
+    }
