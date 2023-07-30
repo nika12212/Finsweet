@@ -1,7 +1,7 @@
 .q{
      background:  #EBF0F9;
      width: 100%;
-height: 584px;
+height: 700px;
 flex-shrink: 0;
 }
 .mymycontainer{
@@ -75,4 +75,51 @@ display: flex;
 gap: 20px;
 
 }
+@media screen and (max-width: 768px) {
+
+    .right-teext
+    {
+ 
+        h2{
+          margin: 0px;
+    font-size: 20px;
+
+        }
+     p{
+        margin: 0px;
+        color:  #525560;
+    font-size: 10px;
+
+     }
+    
 }
+
+}
+}
+@media screen and (max-width: 768px) {
+    .contact_1
+{
+    padding-top: 96px;
+    padding-left: 12px;
+    display: flex;
+ gap: 2px;
+ width:fit-content;
+ margin: 0px;
+ .mymycontainer{
+    max-width: 100%;
+}
+ h1{
+ font-size: 25px;
+ 
+ }
+ p{
+    width: 200px;
+    padding-top: 30px;
+    font-size: 10px;
+
+ }
+}
+  }
+  
+  
+  

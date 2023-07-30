@@ -115,6 +115,7 @@ backdrop-filter: blur(40px);
     width: 300px;
     height: 250px;
     
+ 
     }  
     }
     
@@ -178,21 +179,7 @@ text-align: center;
 height: 384px; 
 background-image: url("../images/Image.png");
 border-radius: 12px;
-
-}
-@media screen and (max-width: 768px) {
-  .donation_3
-  {
-   width: 100%;
-  }
-      .donation_h1{
-        padding-top: 96px;
-         display: flex;
-      justify-content: center;
-      align-items: center;
-   
-      }
-    h1{    
+h1{    
  width: 631px; 
 color: white;
 font-family:$myfont1;
@@ -201,12 +188,13 @@ font-style: normal;
 font-weight: 700;
 line-height: 120%; 
     }
-    @media screen and (max-width: 768px) {
-     .donation_h1{
-      font-size: 20px;
-     }
+    .donation_h1{
+        padding-top: 96px;
+         display: flex;
+      justify-content: center;
+      align-items: center;
    
-    }
+      }
     .donation_3-buttons {
       padding-right: 30px;
       padding-top: 32px;
@@ -254,7 +242,13 @@ backdrop-filter: blur(40px);
       }
 
     }
-    
+}
+@media screen and (max-width: 768px) {
+  .donation_3
+  {
+   width: 100%;
+  }
+
    
   }
 
