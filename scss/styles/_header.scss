@@ -11,11 +11,24 @@ header{
         margin-left: 110px;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
+      img{
+         margin-left: 10px;
+      }
+      }
+    @media screen and (max-width: 780px) {
         img{
            margin-left: 10px;
         }
         }
+
+        @media screen and (max-width: 1158px) {
+          img{
+             margin-left: 10px;
+          }
+          }
+        
+        
      
     
     .header-flex {
@@ -34,7 +47,14 @@ header{
         align-items: center;
          gap: 40px;
     }
-    @media screen and (max-width: 768px) {
+    
+
+    @media screen and (max-width: 1024px) {
+      ul{
+          margin-right: 10px;
+      }
+    }
+    @media screen and (max-width: 780px) {
         ul{
             margin-right: 10px;
         }
@@ -45,7 +65,20 @@ header{
         font-size: 17px;
         font-family: Helvetica;
      }
-     @media screen and (max-width: 768px) {
+     @media screen and (max-width: 1024px) {
+      li a{
+        font-size: 15px;
+        
+      }
+    }
+    @media screen and (max-width: 1024px) {
+      li a{
+        font-size: 20px;
+        
+      }
+    }
+
+     @media screen and (max-width: 780px) {
       li a{
         font-size: 10px;
         
@@ -54,6 +87,7 @@ header{
              .head:hover {
                 -webkit-transition: all .5s;
                 -o-transition: all .5s;
+          
                 transition: all .5s;
                 -webkit-user-select: none;
                    -moz-user-select: none;
@@ -86,7 +120,51 @@ font-family: 'Roboto';
         border-radius: 4px;
 background: $black;
      }
-     @media screen and (max-width: 768px) {
+
+
+     @media screen and (max-width: 1024px) {
+      .Donate{
+        color: #FFF;
+        text-align: right;
+       
+font-family: $myfont1;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: inline-flex;
+        padding: 6px 12px;
+        align-items: flex-start;
+      
+
+
+        border-radius: 4px;
+background: $black;
+      }
+        }
+
+        
+     @media screen and (max-width: 1158px) {
+      .Donate{
+        color: #FFF;
+        text-align: right;
+       
+font-family: $myfont1;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: inline-flex;
+        padding: 6px 12px;
+        align-items: flex-start;
+      
+
+
+        border-radius: 4px;
+background: $black;
+      }
+        }
+     @media screen and (max-width: 780px) {
       .Donate{
         color: #FFF;
         text-align: right;

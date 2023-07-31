@@ -6,12 +6,21 @@
     flex-shrink: 0;
     flex-shrink: 0;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
         .a {
             height: 850px;
         }
     }
-
+    @media screen and (max-width: 1158px) {
+        .a {
+            height: 850px;
+        }
+    }
+    @media screen and (max-width: 780px) {
+        .a {
+            height: 850px;
+        }
+    }
     .donation_1 {
         max-width: 1240px;
         width: 90%;
@@ -22,7 +31,15 @@
         align-items: center;
         flex-wrap: wrap;
 
-        @media screen and (max-width: 1085px) {
+        @media screen and (max-width: 1158px) {
+            justify-content: center;
+            gap: 50px;
+        }
+        @media screen and (max-width: 1024px) {
+            justify-content: center;
+            gap: 50px;
+        }
+        @media screen and (max-width: 780px) {
             justify-content: center;
             gap: 50px;
         }
@@ -37,7 +54,17 @@
                 letter-spacing: 2px;
                 text-transform: uppercase;
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1024px) {
+                h4 {
+                    font-size: 11px;
+                }
+            }
+            @media screen and (max-width: 780px) {
+                h4 {
+                    font-size: 11px;
+                }
+            }
+            @media screen and (max-width: 1158px) {
                 h4 {
                     font-size: 11px;
                 }
@@ -53,7 +80,17 @@
                 font-weight: 700;
                 line-height: 120%;
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1024px) {
+                h1 {
+                    font-size: 25px;
+                }
+            }
+            @media screen and (max-width: 780px) {
+                h1 {
+                    font-size: 25px;
+                }
+            }
+            @media screen and (max-width: 1158px) {
                 h1 {
                     font-size: 25px;
                 }
@@ -68,9 +105,19 @@
                 font-weight: 400;
                 line-height: 160%;
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1024px) {
+                p {
+                    font-size: 15px;
+                }
+            }
+            @media screen and (max-width: 780px) {
                 p {
                     font-size: 10px;
+                }
+            }
+            @media screen and (max-width: 1158px) {
+                p {
+                    font-size: 15px;
                 }
             }
             button {
@@ -83,7 +130,7 @@
                 background-color: #70c174;
                 backdrop-filter: blur(40px);
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1024px) {
                 button {
                     padding: 6px 12px;
                 }
@@ -102,7 +149,44 @@
             height: 384px;
             flex-shrink: 0;
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1024px) {
+            .right-teeext {
+                padding-top: 30px;
+                margin-left: 0px;
+                display: flex;
+                justify-content: center;
+
+                flex-direction: column;
+                width: 300px;
+                height: 250px;
+            }
+        }
+        @media screen and (max-width: 780px) {
+            .right-teeext {
+                padding-top: 30px;
+                margin-left: 0px;
+                display: flex;
+                justify-content: center;
+
+                flex-direction: column;
+                width: 300px;
+                height: 250px;
+            }
+        }
+
+        @media screen and (max-width: 780px) {
+            .right-teeext {
+                padding-top: 30px;
+                margin-left: 0px;
+                display: flex;
+                justify-content: center;
+
+                flex-direction: column;
+                width: 300px;
+                height: 250px;
+            }
+        }
+         @media screen and (max-width: 1158px) {
             .right-teeext {
                 padding-top: 30px;
                 margin-left: 0px;
@@ -119,6 +203,7 @@
 .donation_2 {
     display: inline-flex;
     gap: 96px;
+    
     text-align: center;
     margin-top: 80px;
     h1 {
@@ -131,7 +216,7 @@
         font-weight: 700;
         line-height: 120%;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
         h1 {
             font-size: 25px;
         }
@@ -156,13 +241,31 @@
         line-height: 160%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .donation_2 {
+        margin-top: 450px;
         display: flex;
         flex-direction: column;
-        margin-top: 600px;
+    
     }
 }
+@media screen and (max-width: 1282px) {
+    .donation_2 {
+        margin-top: 450px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+@media screen and (max-width: 1158px) {
+    .donation_2 {
+        margin-top: 450px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+
 .donation_3 {
     margin-top: 96px;
 
@@ -224,17 +327,33 @@
             background: #fff;
             backdrop-filter: blur(40px);
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1024px) {
             .donation_3-button_2,
             .donation_3-button_1 {
                 padding: 6px 12px;
             }
         }
+        @media screen and (max-width: 1158px) {
+            .donation_3-button_2,
+            .donation_3-button_1 {
+                padding: 9px 18px;
+            }
+        }
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .donation_3 {
+ 
         width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 1158px) {
+    .donation_3 {
+        
+        width: 100%;
+        
     }
 }
 
