@@ -1,270 +1,254 @@
-.a{
-    background-color:rgba(190, 243, 192, 1);
+.a {
+    background-color: rgba(190, 243, 192, 1);
     width: 100%;
-    
-    height: 700px;
+    padding-bottom: 100px;
+
     flex-shrink: 0;
     flex-shrink: 0;
 
     @media screen and (max-width: 768px) {
-      .a{
-      
-        height: 850px;
-  
-      }
-      }
-      
-  .donation_1{
-    display: flex;
-  
-    padding-left: 206px;
-    padding-top: 96px;
-    @media screen and (max-width: 768px) {
-      flex-direction: column;
-     padding-left: 30px;
-      height: auto;
-     }
-    .left-teeext{
-        h4{
-        color:  #1D2130;
-font-family: $myfont1;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 2px;
-text-transform: uppercase;
-   }     
-@media screen and (max-width: 768px) {
- h4{
-  font-size: 11px;
- }
-  }
-        
-     h1{
-        padding-top: 32px;
-        color:  #1D2130;
+        .a {
+            height: 850px;
+        }
+    }
+
+    .donation_1 {
+        max-width: 1240px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        @media screen and (max-width: 1085px) {
+            justify-content: center;
+            gap: 50px;
+        }
+        .left-teeext {
+            h4 {
+                color: #1d2130;
+                font-family: $myfont1;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+            @media screen and (max-width: 768px) {
+                h4 {
+                    font-size: 11px;
+                }
+            }
+
+            h1 {
+                padding-top: 32px;
+                color: #1d2130;
+                font-family: $myfont1;
+                width: 496px;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+            }
+            @media screen and (max-width: 768px) {
+                h1 {
+                    font-size: 25px;
+                }
+            }
+            p {
+                padding-top: 14px;
+                width: 496px;
+                color: #525560;
+                font-family: $myfont1;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+            }
+            @media screen and (max-width: 768px) {
+                p {
+                    font-size: 10px;
+                }
+            }
+            button {
+                margin-top: 32px;
+
+                color: white;
+                padding: 16px 32px;
+                border: none;
+                border-radius: 4px;
+                background-color: #70c174;
+                backdrop-filter: blur(40px);
+            }
+            @media screen and (max-width: 768px) {
+                button {
+                    padding: 6px 12px;
+                }
+            }
+            button:hover {
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+                color: rgb(6, 255, 93);
+                background-color: #1c1d28;
+            }
+        }
+
+        .right-teeext {
+            width: 480px;
+            height: 384px;
+            flex-shrink: 0;
+        }
+        @media screen and (max-width: 768px) {
+            .right-teeext {
+                padding-top: 30px;
+                margin-left: 0px;
+                display: flex;
+                justify-content: center;
+
+                flex-direction: column;
+                width: 300px;
+                height: 250px;
+            }
+        }
+    }
+}
+.donation_2 {
+    display: inline-flex;
+    gap: 96px;
+    text-align: center;
+    margin-top: 80px;
+    h1 {
+        width: 374px;
+
+        color: #1d2130;
         font-family: $myfont1;
-        width: 496px;
-        font-size: 56px;
+        font-size: 48px;
         font-style: normal;
         font-weight: 700;
-        line-height: 120%; 
-     }
-     @media screen and (max-width: 768px) {
-     h1{
-      font-size: 25px;
-     }
-      }
-     p{
-      padding-top: 14px;
-        width: 496px;
-        color: #525560; 
-font-family:$myfont1;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-     }
-     @media screen and (max-width: 768px) {
-      p{
-        font-size: 10px;
-      }
-      }
-    button{
-      margin-top: 32px;
-     
-      color: white;
-padding: 16px 32px;
-border: none;
-border-radius: 4px;
-background-color: #70C174;
-backdrop-filter: blur(40px);
+        line-height: 120%;
     }
     @media screen and (max-width: 768px) {
-   button{
-    padding: 6px 12px;
-
-   }
-      }
-    button:hover{
-      -webkit-transition: all .5s;
-      -o-transition: all .5s;
-      transition: all .5s;
-      color: rgb(6, 255, 93);
-        background-color: #1C1D28;
+        h1 {
+            font-size: 25px;
+        }
     }
-   }
-   
-     
-  .right-teeext{
-     margin-left: 300px;
-    width: 480px;
-    height: 384px;
-    flex-shrink: 0;
- 
-   }      
-   @media screen and (max-width: 768px) {
-    .right-teeext{
-      padding-top: 30px;
-    margin-left: 0px;
-     display: flex;
-     justify-content: center;  
-   
-     flex-direction: column;
-    width: 300px;
-    height: 250px;
-    
- 
-    }  
-    }
-    
-  }
- 
-} 
-.donation_2{
-display: inline-flex;
-gap: 96px;
-text-align: center;
- margin-top: 80px;
-  h1{
-    width: 374px;
-    
-     color:  #1D2130;
-font-family: $myfont1;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%;
-  }
-  @media screen and (max-width: 768px) {
-    h1{
-      font-size: 25px;
-    }
-  }
-  .mid-text{
-    width: 338px;
-    color:  #525560;
+    .mid-text {
+        width: 338px;
+        color: #525560;
 
-
-font-family:$myfont1;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-  }
-  .end-text{
-    width: 374px;
-    color:  #525560;
-font-family: $myfont1;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%;
-  }
- 
-  }
-  @media screen and (max-width: 768px) {
-   .donation_2{
-    display: flex;
-    flex-direction: column;
-    margin-top: 600px;
-   }
-  }
-  .donation_3{
-  margin-top: 96px;
-
-text-align: center;
-    width: 1280px;
-height: 384px; 
-background-image: url("../images/Image.png");
-border-radius: 12px;
-h1{    
- width: 631px; 
-color: white;
-font-family:$myfont1;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; 
-    }
-    .donation_h1{
-        padding-top: 96px;
-         display: flex;
-      justify-content: center;
-      align-items: center;
-   
-      }
-    .donation_3-buttons {
-      padding-right: 30px;
-      padding-top: 32px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-  
-      gap: 60px;
-      cursor: pointer;
-      .donation_3-button_1 button{
-        color:rgb(255, 255, 255);
-         
         font-family: $myfont1;
         font-size: 16px;
         font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        padding: 16px 32px;
-        gap: 10px;
-        border: none;
-        border-radius: 4px;
-        background-color: #70C174;
-        backdrop-filter: blur(40px);
-        
-        
-      } 
-      .donation_3-button_2 button{
-        display: inline-flex;
-        padding: 16px 32px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 4px;
-background: #FFF;
-backdrop-filter: blur(40px);
-        
-        
-      }
-      @media screen and (max-width: 768px) {
-          .donation_3-button_2
-          ,.donation_3-button_1{
-            padding: 6px 12px;
-          }
-      }
-
+        font-weight: 400;
+        line-height: 160%;
+    }
+    .end-text {
+        width: 374px;
+        color: #525560;
+        font-family: $myfont1;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
     }
 }
 @media screen and (max-width: 768px) {
-  .donation_3
-  {
-   width: 100%;
-  }
+    .donation_2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+    }
+}
+.donation_3 {
+    margin-top: 96px;
 
-   
-  }
+    text-align: center;
+    max-width: 1280px;
+    width: 100%;
+    height: 384px;
+    background-image: url("../images/Image.png");
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    h1 {
+        width: 631px;
+        color: white;
+        font-family: $myfont1;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    .donation_h1 {
+        padding-top: 96px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .donation_3-buttons {
+        padding-right: 30px;
+        padding-top: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
-      .o {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh; 
-      .donation_2,
+        gap: 60px;
+        cursor: pointer;
+        .donation_3-button_1 button {
+            color: rgb(255, 255, 255);
+
+            font-family: $myfont1;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding: 16px 32px;
+            gap: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #70c174;
+            backdrop-filter: blur(40px);
+        }
+        .donation_3-button_2 button {
+            display: inline-flex;
+            padding: 16px 32px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 4px;
+            background: #fff;
+            backdrop-filter: blur(40px);
+        }
+        @media screen and (max-width: 768px) {
+            .donation_3-button_2,
+            .donation_3-button_1 {
+                padding: 6px 12px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
     .donation_3 {
-      margin-bottom: 20px;
+        width: 100%;
     }
-    .p{
-      margin-bottom: 92px;
-  
+}
+
+.o {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .donation_2,
+    .donation_3 {
+        margin-bottom: 20px;
     }
+    .p {
+        margin-bottom: 92px;
     }
-  
+}
