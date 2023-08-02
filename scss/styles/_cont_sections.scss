@@ -1,50 +1,17 @@
 .data{
     display: flex;
     justify-content: center;
-    height: 800px;
-
+    height: 900px;
+    width: 100%;
+   
     .rowg-3{
         
         padding-top: 50px;
-  
-      
         flex-shrink: 0;
-        display: flex;
-       align-items: center;
-       flex-wrap: wrap;
+         display: flex;
+         flex-direction: column;
         gap: 10px;
-        width: 700px;
+        width: 70%;
         height: 700px;
-    }
-    
-    img{
-        width: 100%;
-height: 448px;
-flex-shrink: 0;
-    }
-    .map{
-        width: 100%;
-    }
-}
-
-    @media screen and (max-width: 1158px) {
-      
-      .data{
-         display: none;
-      } 
-}
-@media screen and (max-width: 1024px) {
-   
-    .data{
-        display: none;
-     } 
-}
-@media screen and (max-width: 780px) {
-    
-    .data{
-        display: none;
-     } 
-}
-body{
-    display: none;
+    }   
 }

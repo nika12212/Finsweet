@@ -10,73 +10,143 @@ flex-shrink: 0;
     margin: 0 auto;
 }
 .contact_1
-{
-    margin-top: 96px;
-    max-width: 1240px;
-    width: 90%;
-    margin: 0 auto;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-   
-    @media screen and (max-width: 1158px) {
-        justify-content: center;
-        gap: 50px;
-    }
-    @media screen and (max-width: 1024px) {
-        justify-content: center;
-        gap: 50px;
-    }
-    @media screen and (max-width: 780px) {
-        justify-content: center;
-        gap: 50px;
-    }
-    h4{
-        color: $black;
-        font-family: $myfont1;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-}
-h1{
-    padding-top: 32px;
-    width: 480.451px;
-    color:$black;
-
-
-font-family: $myfont1;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; 
-}
-P{
-    color:  #1D2130;
-    width: 480.451px;
-    opacity: 0.699999988079071;
-font-family: $myfont1;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%;
-}
-.right-teext
-{
-
-    max-width: 1240px;
-    width: 90%;
+{ max-width: 1240px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     flex-wrap: wrap;
+
+    @media screen and (max-width: 1158px) {
+        margin-top: 30px;
+        justify-content: center;
+        gap: 50px;
+    }
+    @media screen and (max-width: 1024px) {
+        margin-top: 25px;
+        justify-content: center;
+        gap: 50px;
+    }
+    @media screen and (max-width: 780px) {
+        margin-top: 20px;
+        justify-content: center;
+        gap: 50px;
+    }
+    .left-teext {
+        h4 {
+            color: #1d2130;
+            font-family: $myfont1;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        @media screen and (max-width: 1024px) {
+            h4 {
+                font-size: 11px;
+            }
+        }
+        @media screen and (max-width: 780px) {
+            h4 {
+                font-size: 11px;
+            }
+        }
+        @media screen and (max-width: 1158px) {
+            h4 {
+                font-size: 11px;
+            }
+        }
+
+        h1 {
+            padding-top: 32px;
+            color: #1d2130;
+            font-family: $myfont1;
+            width: 496px;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+        }
+        @media screen and (max-width: 1024px) {
+            h1 {
+                font-size: 25px;
+            }
+        }
+        @media screen and (max-width: 780px) {
+            h1 {
+                font-size: 25px;
+            }
+        }
+        @media screen and (max-width: 1158px) {
+            h1 {
+                font-size: 25px;
+            }
+        }
+        p {
+            padding-top: 14px;
+            width: 496px;
+            color: #525560;
+            font-family: $myfont1;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+        }
+        @media screen and (max-width: 1024px) {
+            p {
+                font-size: 15px;
+            }
+        }
+        @media screen and (max-width: 780px) {
+            p {
+                font-size: 10px;
+            }
+        }
+        @media screen and (max-width: 1158px) {
+            p {
+                font-size: 15px;
+            }
+        }
+        button {
+            margin-top: 32px;
+
+            color: white;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 4px;
+            background-color: #70c174;
+            backdrop-filter: blur(40px);
+        }
+        @media screen and (max-width: 1024px) {
+            button {
+                padding: 6px 12px;
+            }
+        }
+        button:hover {
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+            color: rgb(6, 255, 93);
+            background-color: #1c1d28;
+        }
+    }
+
+.right-teext
+{
+
+   
+    width: 90%;
+   
+    width: 480px;
+    height: 384px;
+    flex-shrink: 0; 
+    display: flex;
+      flex-direction: column;
+
     h2{
         color: var(--primary-text, #1D2130);
 font-family: $myfont1;
@@ -102,50 +172,58 @@ gap: 20px;
 
 }
 @media screen and (max-width: 1024px) {
+    .right-teeext {
+        padding-top: 30px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
 
-    .right-teext
-    {
- 
-        h2{
-          margin: 0px;
-    font-size: 20px;
+        flex-direction: column;
+        width: 300px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .right-teeext {
+        padding-top: 30px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
 
-        }
-     p{
-        margin: 0px;
-        color:  #525560;
-    font-size: 10px;
-
-     }
-    
+        flex-direction: column;
+        width: 300px;
+        height: 250px;
+    }
 }
 
-}
-}
-@media screen and (max-width: 1024px) {
-    .contact_1
-{
-    padding-top: 96px;
-    padding-left: 12px;
-    display: flex;
- gap: 2px;
- width:fit-content;
- margin: 0px;
- .mymycontainer{
-    max-width: 100%;
-}
- h1{
- font-size: 25px;
- 
- }
- p{
-    width: 200px;
-    padding-top: 30px;
-    font-size: 10px;
+@media screen and (max-width: 780px) {
+    .right-teeext {
+        padding-top: 30px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
 
- }
+        flex-direction: column;
+        width: 300px;
+        height: 250px;
+    }
 }
-  }
+ @media screen and (max-width: 1158px) {
+    .right-teeext {
+        padding-top: 30px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+        width: 300px;
+        height: 250px;
+    }
+}
+}
+
+
+  
   
   
   
