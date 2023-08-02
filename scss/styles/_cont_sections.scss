@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     height: 800px;
+
     .rowg-3{
+        
         padding-top: 50px;
   
       
@@ -24,6 +26,25 @@ flex-shrink: 0;
         width: 100%;
     }
 }
+
+    @media screen and (max-width: 1158px) {
+      
+      .data{
+         display: none;
+      } 
+}
 @media screen and (max-width: 1024px) {
-  
+   
+    .data{
+        display: none;
+     } 
+}
+@media screen and (max-width: 780px) {
+    
+    .data{
+        display: none;
+     } 
+}
+body{
+    display: none;
 }
