@@ -510,7 +510,6 @@ header .Donate:hover {
 }
 .s-2 .top {
   max-width: 1240px;
-  width: 100%;
   margin: 0 auto;
   margin-top: 100px;
   display: flex;
@@ -518,27 +517,46 @@ header .Donate:hover {
   align-items: center;
   flex-wrap: wrap;
 }
-.s-2 .left-text {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+@media screen and (max-width: 1158px) {
+  .s-2 .top {
+    margin-left: 20px;
+    gap: 30px;
+  }
 }
 @media screen and (max-width: 1024px) {
-  .s-2 .left-text {
-    font-size: 20px;
-    width: 400px;
+  .s-2 .top {
+    margin-left: 20px;
+    gap: 30px;
   }
 }
 @media screen and (max-width: 780px) {
-  .s-2 .left-text {
-    width: 400px;
-    font-size: 20px;
+  .s-2 .top {
+    gap: 30px;
   }
 }
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1285.6px) {
+  .s-2 .top {
+    margin-left: 20px;
+    gap: 30px;
+  }
+}
+.s-2 .left-text {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
   .s-2 .left-text {
-    font-size: 20px;
-    width: 400px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .s-2 .left-text {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .s-2 .left-text {
+    gap: 20px;
   }
 }
 .s-2 .left-text .line {
@@ -565,6 +583,24 @@ header .Donate:hover {
   font-weight: 700;
   line-height: 120%;
 }
+@media screen and (max-width: 1024px) {
+  .s-2 .left-text h1 {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .s-2 .left-text h1 {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .s-2 .left-text h1 {
+    font-size: 20px;
+    width: 80%;
+  }
+}
 .s-2 .left-text p {
   width: 608px;
   color: #525560;
@@ -573,6 +609,24 @@ header .Donate:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
+}
+@media screen and (max-width: 1024px) {
+  .s-2 .left-text p {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .s-2 .left-text p {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .s-2 .left-text p {
+    font-size: 20px;
+    width: 80%;
+  }
 }
 .s-2 .left-text .s-2_button {
   padding-top: 30px;
@@ -598,6 +652,26 @@ header .Donate:hover {
 .s-2_footer {
   padding-top: 126px;
   margin-left: 110px;
+}
+@media screen and (max-width: 1158px) {
+  .s-2_footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .s-2_footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 780px) {
+  .s-2_footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 1285.6px) {
+  .s-2_footer {
+    display: none;
+  }
 }
 .s-2_footer h3 {
   color: #1D2130;
@@ -632,10 +706,53 @@ header .Donate:hover {
   max-width: 1024px;
   width: 100%;
 }
+@media screen and (max-width: 1024px) {
+  .s-3 {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .s-3 {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .s-3 {
+    margin-top: 300px;
+  }
+}
 .s-3 img {
   width: 302px;
   height: 192px;
   border-radius: 8px;
+}
+@media screen and (max-width: 1158px) {
+  .s-3 img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .s-3 img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 780px) {
+  .s-3 img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1285.6px) {
+  .s-3 img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+  }
 }
 .s-3 h1 {
   color: #1D2130;
@@ -668,11 +785,56 @@ header .Donate:hover {
   justify-content: space-between;
   gap: 30px;
 }
+@media screen and (max-width: 1024px) {
+  .s-3 .news1 {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .s-3 .news1 {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .s-3 .news1 {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 .s-3 .news2 {
   padding-top: 20px;
-  gap: 30px;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .s-3 .news2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .s-3 .news2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .s-3 .news2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 .s-3 .s-3_line {
   border: 1px solid black;
@@ -786,6 +948,22 @@ header .Donate:hover {
   background: #FFF;
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
+}
+
+@media screen and (max-width: 1024px) {
+  .first_news h4, .first_news p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .first_news h4, .first_news p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1285.6px) {
+  .first_news h4, .first_news p {
+    width: 90%;
+  }
 }
 
 .data {
