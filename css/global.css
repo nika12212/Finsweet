@@ -135,8 +135,8 @@ header .head:hover {
   -moz-user-select: none;
   user-select: none;
   color: white;
-  padding: 10px;
-  background: linear-gradient(to bottom, rgb(90, 221, 219), rgb(43, 182, 101));
+  padding: 7px;
+  background: linear-gradient(to bottom, rgb(7, 255, 251), rgb(43, 182, 101));
 }
 header .Donate {
   color: #FFF;
@@ -540,23 +540,29 @@ header .Donate:hover {
     gap: 30px;
   }
 }
+.s-2 .top .right-bar img {
+  width: 480px;
+  height: 579px;
+  flex-shrink: 0;
+}
 .s-2 .left-text {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 @media screen and (max-width: 1024px) {
   .s-2 .left-text {
-    gap: 20px;
+    gap: 30px;
   }
 }
 @media screen and (max-width: 1024px) {
   .s-2 .left-text {
-    gap: 20px;
+    gap: 30;
   }
 }
 @media screen and (max-width: 1024px) {
   .s-2 .left-text {
-    gap: 20px;
+    gap: 30px;
   }
 }
 .s-2 .left-text .line {
