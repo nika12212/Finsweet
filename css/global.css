@@ -975,7 +975,7 @@ header .Donate:hover {
 .data {
   display: flex;
   justify-content: center;
-  height: 900px;
+  height: 800px;
   width: 100%;
 }
 .data .rowg-3 {
@@ -986,6 +986,20 @@ header .Donate:hover {
   gap: 10px;
   width: 70%;
   height: 700px;
+}
+
+.Sign_up {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.Sign_up button {
+  height: 50px;
+  width: 300px;
+}
+
+.form-control {
+  height: 500px;
 }
 
 .footer {
