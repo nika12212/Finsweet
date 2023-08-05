@@ -617,14 +617,14 @@ flex-shrink: 0;
   .first_news{
     @media screen and (max-width: 1158px) {
      h4,p{
-     
+        width: 90%;
      }
         
     
     }
     @media screen and (max-width: 1024px) {
         h4,p{
-            width: 90%;
+            
          }
 
     }
