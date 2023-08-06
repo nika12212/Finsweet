@@ -69,25 +69,32 @@ header .container {
 }
 header img {
   margin-left: 110px;
+  height: 70px;
+  backface-visibility: inherit;
+  padding: 0px;
 }
 @media screen and (max-width: 1024px) {
   header img {
-    margin-left: 10px;
+    height: 50px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 780px) {
   header img {
-    margin-left: 10px;
+    height: 50px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 1158px) {
   header img {
-    margin-left: 10px;
+    height: 50px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 1158px) {
   header img {
-    margin-left: 10px;
+    margin-left: 0px;
+    height: 50px;
   }
 }
 header .header-flex {
@@ -97,21 +104,50 @@ header .header-flex {
   align-items: center;
 }
 header ul {
-  margin-right: 110.5px;
   display: inline-flex;
   padding: 16px 20px;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 40px;
 }
 @media screen and (max-width: 1024px) {
   header ul {
-    margin-right: 10px;
+    padding: 0px;
+    font-size: 15px;
+    gap: 20px;
+    width: 10px;
   }
 }
 @media screen and (max-width: 780px) {
   header ul {
-    margin-right: 10px;
+    width: 10px;
+    gap: 10px;
+    padding: 0px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 816px) {
+  header ul {
+    padding: 0px;
+    width: 10px;
+    font-size: 15px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1158px) {
+  header ul {
+    padding: 0px;
+    width: 10px;
+    font-size: 15px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1158px) {
+  header ul {
+    padding: 0px;
+    width: 10px;
+    gap: 15px;
+    font-size: 10px;
   }
 }
 header li a {
@@ -719,12 +755,12 @@ header .Donate:hover {
 }
 @media screen and (max-width: 780px) {
   .s-3 {
-    margin-top: 200px;
+    margin-top: 400px;
   }
 }
 @media screen and (max-width: 1158px) {
   .s-3 {
-    margin-top: 300px;
+    margin-top: 400px;
   }
 }
 .s-3 img {
@@ -1336,6 +1372,99 @@ header .Donate:hover {
     margin-top: 100px;
   }
 }
+.footer4 {
+  background-color: #000000;
+  margin-top: 10%;
+  margin-top: 700px;
+  padding: 40px 0;
+}
+.footer4 img {
+  width: 21px;
+  height: 24px;
+}
+
+@media screen and (max-width: 1237px) {
+  .footer4 {
+    margin-top: 500px;
+  }
+}
+.footer4 .social4 {
+  text-align: center;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.footer4 .social4 a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer4 .social4 a:hover {
+  opacity: 0.9;
+}
+
+.footer4 ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 0;
+}
+
+.footer4 ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer4 ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer4 ul a:hover {
+  opacity: 1;
+}
+
+.footer4 .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer4 {
+    margin-top: 500px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .footer4 {
+    margin-top: 500px;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .footer4 {
+    margin-top: 500px;
+  }
+}
+@media screen and (max-width: 1248px) {
+  .footer4 {
+    margin-top: 500px;
+  }
+}
 .start-screen,
 .score-container {
   position: absolute;
@@ -1351,6 +1480,11 @@ header .Donate:hover {
 .score-container h1 {
   font-size: 45px;
   padding-bottom: 50px;
+}
+.start-screen img,
+.score-container img {
+  height: 200px;
+  width: 300px;
 }
 
 button {
@@ -1449,10 +1583,6 @@ button {
 
 #user-score {
   font-size: 1.5em;
-}
-
-.quiz-body {
-  background-color: rgb(190, 243, 192);
 }
 
 .media-1 .container {
