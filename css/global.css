@@ -154,6 +154,7 @@ header li a {
   color: #525560;
   font-size: 17px;
   font-family: Helvetica;
+  cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
   header li a {
@@ -1375,7 +1376,7 @@ header .Donate:hover {
 .footer4 {
   background-color: #000000;
   margin-top: 10%;
-  margin-top: 700px;
+  margin-top: 600px;
   padding: 40px 0;
 }
 .footer4 img {
@@ -1465,10 +1466,20 @@ header .Donate:hover {
     margin-top: 500px;
   }
 }
+.container {
+  position: relative;
+}
+
+.centered-div {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .start-screen,
 .score-container {
-  position: absolute;
-  top: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -1489,7 +1500,6 @@ header .Donate:hover {
 
 button {
   border: none;
-  outline: none;
   cursor: pointer;
 }
 
@@ -1552,7 +1562,6 @@ button {
 
 .option-div:disabled {
   color: #000000;
-  cursor: not-allowed;
 }
 
 #next-button {

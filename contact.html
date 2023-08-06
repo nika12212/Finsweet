@@ -201,13 +201,42 @@ E-mail:
   <p class="copyright">Future Coders @ 2023</p>
 </section>
 <script>
+document.getElementById("insert").addEventListener("click", () => {
+  const name = document.getElementById("name").value.trim();
+  const lastName = document.getElementById("Last-name").value.trim();
+  const email = document.getElementById("Email").value.trim();
+  const password = document.getElementById("Password").value.trim();
+  const age = document.getElementById("Age").value.trim();
+  const dateOfBirth = document.getElementById("birth").value.trim();
+  const city = document.getElementById("City").value.trim();
+  const district = document.getElementById("District").value.trim();
 
-  $('#insert').click(function(){
+  if (
+    name === "" ||
+    lastName === "" ||
+    email === "" ||
+    password === "" ||
+    age === "" ||
+    dateOfBirth === "" ||
+    city === "" ||
+    district === ""
+  ) {
     Swal.fire({
-      icon: 'success',
-      title: 'Signed Up Successfully'
-    })
-  })
+      icon: "error",
+      title: "Oops...",
+      text: "Please fill in all the required fields!",
+    });
+    return;
+  }
+
+  // Here, you can proceed with signing up the user or performing any other action.
+  // For now, I'm just showing a success alert as in the original code.
+  Swal.fire({
+    icon: "success",
+    title: "Signed Up Successfully",
+  });
+});
+
 </script>
 </body>
 </html>

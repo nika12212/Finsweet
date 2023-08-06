@@ -69,6 +69,7 @@ nextBtn.addEventListener(
    
     questionCount += 1;
   
+    
     if (questionCount == quizArray.length) {
  
       displayContainer.classList.add("hide");
@@ -160,6 +161,7 @@ function quizCreator() {
 
 function checker(userOption) {
   let userSolution = userOption.innerText;
+  
   let question =
     document.getElementsByClassName("container-mid")[questionCount];
   let options = question.querySelectorAll(".option-div");
