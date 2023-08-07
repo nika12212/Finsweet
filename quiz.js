@@ -42,6 +42,7 @@ const quizArray = [
   question: "How long does a Styrofoam cup take to decompose?",
   options: ["50 years", "100 years", "300 years", "500 years"],
   correct: "500 years",
+  
 },
 {
   id: "4",
@@ -95,7 +96,7 @@ nextBtn.addEventListener(
     {
       userScore.innerHTML =
       "Your score is " + scoreCount + " out of " + questionCount + "!"+ '<br>'+
-       '<br>' + "Good job  🥳";
+       '<br>' + "     Good   job  🥳";
     } 
     else {
    
@@ -160,16 +161,17 @@ function quizCreator() {
 
 
 function checker(userOption) {
+  
+
+
   let userSolution = userOption.innerText;
   
-  let question =
-    document.getElementsByClassName("container-mid")[questionCount];
+  let question = document.getElementsByClassName("container-mid")[questionCount];
   let options = question.querySelectorAll(".option-div");
 
   if (userSolution === quizArray[questionCount].correct) {
     userOption.classList.add("correct");
     scoreCount++;
-
   } else {
     userOption.classList.add("incorrect");
    
@@ -179,9 +181,8 @@ function checker(userOption) {
       }
     });
   }
-
-  
 }
+
 
 
 function initial() {
