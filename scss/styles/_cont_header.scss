@@ -1,8 +1,17 @@
 .q{
      background:  #EBF0F9;
      width: 100%;
-height: 700px;
+height: 500px;
 flex-shrink: 0;
+@media screen and (max-width: 1158px) {
+  height: 650px;
+}
+@media screen and (max-width: 1024px) {
+    height: 650px;
+}
+@media screen and (max-width: 780px) {
+    height: 650px;
+}
 }
 .mymycontainer{
     max-width: 1440px;
