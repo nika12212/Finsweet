@@ -125,8 +125,7 @@ E-mail:
        Password:
           <input type="password" class="form-control" id="Password" id="inputPassword4">
 
-       Age:
-          <input type="number" class="form-control"  id="Age"id="inputAddress" placeholder="">
+       
      
         Date of birth:
           <input type="date" class="form-control" id="birth" id="inputAddress2" placeholder="Apartment, studio, or floor">
@@ -206,7 +205,7 @@ document.getElementById("insert").addEventListener("click", () => {
   const lastName = document.getElementById("Last-name").value.trim();
   const email = document.getElementById("Email").value.trim();
   const password = document.getElementById("Password").value.trim();
-  const age = document.getElementById("Age").value.trim();
+
   const dateOfBirth = document.getElementById("birth").value.trim();
   const city = document.getElementById("City").value.trim();
   const district = document.getElementById("District").value.trim();
@@ -216,8 +215,7 @@ document.getElementById("insert").addEventListener("click", () => {
     lastName === "" ||
     email === "" ||
     password === "" ||
-    age === "" ||
-    dateOfBirth === "" ||
+   dateOfBirth === "" ||
     city === "" ||
     district === ""
   ) {
