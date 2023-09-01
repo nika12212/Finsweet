@@ -1391,8 +1391,6 @@ header .Donate:hover {
 }
 .footer4 {
   background-color: #000000;
-  margin-top: 10%;
-  margin-top: 600px;
   padding: 40px 0;
 }
 .footer4 img {
@@ -1400,11 +1398,6 @@ header .Donate:hover {
   height: 24px;
 }
 
-@media screen and (max-width: 1237px) {
-  .footer4 {
-    margin-top: 500px;
-  }
-}
 .footer4 .social4 {
   text-align: center;
   padding-bottom: 25px;
@@ -1462,26 +1455,11 @@ header .Donate:hover {
   color: #aaa;
 }
 
-@media screen and (max-width: 1024px) {
-  .footer4 {
-    margin-top: 500px;
-  }
+.container2 {
+  position: relative;
+  height: 100vh;
 }
-@media screen and (max-width: 780px) {
-  .footer4 {
-    margin-top: 500px;
-  }
-}
-@media screen and (max-width: 1158px) {
-  .footer4 {
-    margin-top: 500px;
-  }
-}
-@media screen and (max-width: 1248px) {
-  .footer4 {
-    margin-top: 500px;
-  }
-}
+
 .container {
   position: relative;
 }
@@ -1628,6 +1606,11 @@ button {
 
 #user-score {
   font-size: 1.5em;
+}
+
+video {
+  height: 200px;
+  width: 350px;
 }
 
 .media-1 .container {

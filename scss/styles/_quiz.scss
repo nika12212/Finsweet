@@ -1,7 +1,14 @@
+.container2 {
+  position: relative;
+  height: 100vh;
+
+}
 .container {
   position: relative;
 
+
 }
+
 
 .centered-div {
   position: absolute;
@@ -133,3 +140,7 @@ font-size: 1.5em;
 }
 
 
+video{
+  height: 200px;
+  width: 350px;
+}

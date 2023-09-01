@@ -208,3 +208,14 @@ window.onload = () => {
   displayContainer.classList.add("hide");
 
 };
+
+const cameraFeed = document.getElementById('camera');
+
+navigator.mediaDevices.getUserMedia({video : true})
+.then(stream =>{
+ cameraFeed.srcObject =stream
+})
+.catch(error =>
+    {
+        console.error('Error accessing camera: ',error)
+    })

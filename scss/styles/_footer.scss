@@ -339,8 +339,7 @@
 
 .footer4 {
   background-color: #000000;
-  margin-top: 10%;
-  margin-top: 600px;
+
 
   padding: 40px 0;
   img{
@@ -349,9 +348,7 @@
   }
 }
 @media screen and (max-width: 1237px) {
-  .footer4{
-   margin-top: 500px;
-  }
+  
  }
 .footer4  .social4 {
   text-align: center;
@@ -405,25 +402,4 @@
   text-align: center;
   font-size: 13px;
   color: #aaa;
-}
-
-@media screen and (max-width: 1024px) {
- .footer4{
-  margin-top: 500px;
- }
-}
-@media screen and (max-width: 780px) {
-  .footer4{
-    margin-top: 500px;
-   }
-}
-@media screen and (max-width: 1158px) {
-  .footer4{
-    margin-top: 500px;
-   }
-}
-@media screen and (max-width: 1248px) {
-  .footer4{
-    margin-top: 500px;
-   }
 }
